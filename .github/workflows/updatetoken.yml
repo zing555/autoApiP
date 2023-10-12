@@ -11,6 +11,7 @@ on:
   #    - master
   schedule:
     - cron: '10 10 * * 1,4,6'
+  workflow_dispatch:
   watch:
     types: [started]
    
